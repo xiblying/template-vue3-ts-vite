@@ -1,0 +1,9 @@
+{
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "*.env": "$(capture).env.*",
+    "package.json": "pnpm-lock.yaml,LICENSE,.gitattributes,.gitignore,.gitpod.yml,.npmrc,.browserslistrc,README*",
+    ".eslintrc.js": ".eslintignore,.prettierignore,.stylelintignore,.commitlintrc.js,.prettierrc.js,.stylelintrc.js"
+  }
+}
