@@ -7,7 +7,7 @@
  */
 import { isObject, isArray } from 'lodash-es'
 import Axios from './Axios'
-import { useApp } from '@/use/app/useApp'
+import { useApp } from '@/hooks/app/useApp'
 
 export default new Axios({
   // API地址默认前缀

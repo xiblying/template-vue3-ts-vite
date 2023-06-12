@@ -8,7 +8,7 @@
 import type { AxiosError, AxiosInstance, AxiosRequestConfig, AxiosResponse, InternalAxiosRequestConfig } from 'axios'
 import axios from 'axios'
 import { isBlob } from '../is'
-import { useToken } from '@/use/app/useToken'
+import { useToken } from '@/hooks/app/useToken'
 
 const { getToken } = useToken()
 

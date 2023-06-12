@@ -2,11 +2,11 @@ import type { NavigationGuard, NavigationHookAfter, RouteLocationNormalized, Rou
 import NProgress from 'nprogress'
 import 'nprogress/nprogress.css'
 import router from '@/router'
-import { useToken } from '@/use/app/useToken'
+import { useToken } from '@/hooks/app/useToken'
 import { useUserStore } from '@/store/modules/user'
 import permConfig from '@/config/permission.config'
 import { whiteListRoutes, LoginRoute, Exception403Route } from '../routes'
-import { usePermission } from '@/use/app/usePermission'
+import { usePermission } from '@/hooks/app/usePermission'
 
 NProgress.configure({ showSpinner: false })
 

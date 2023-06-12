@@ -7,7 +7,7 @@
  */
 import type { LoginParams, UserInfo } from '@/api/model/user'
 import { defineStore } from 'pinia'
-import { useToken } from '@/use/app/useToken'
+import { useToken } from '@/hooks/app/useToken'
 import { usePermissionStore } from './permission'
 import { asyncRoutes } from '@/router/routes'
 import { treeForEach } from '@/utils/util'
